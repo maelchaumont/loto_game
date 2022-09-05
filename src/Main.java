@@ -1,5 +1,15 @@
 import java.util.*;
 
+/**
+ * Cette classe permet de lancer mon application.
+ * Elle est composée des méthodes suivantes :
+ * <ul>
+ *     <li>main : point d'entrée de l'application</li>
+ *     <li>afficheNombresSortis: affiche dans la sortie standard les entiers de la liste passée en paramètre</li>
+ * </ul>
+ * @author maelc
+ * @version 0.1.0
+ */
 public class Main {
 
     public static void main(String[] args) {
@@ -32,7 +42,10 @@ public class Main {
     }
 
 
-
+    /**
+     * @param maListe
+     *  Liste des entiers à afficher
+     */
     public static void afficheNombresSortis(ArrayList<Integer> maListe) {
         Collections.sort(maListe);
 
